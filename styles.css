@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #111;
+  font-family: "Handlee", cursive;
+}
+
+.postcard {
+  width: 600px;
+  min-height: 400px;
+  padding: 18px 22px 24px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.postcard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.postcard-header h1 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1;
+}
+
+.postcard-header img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.postcard-body {
+  display: flex;
+  gap: 28px;
+}
+
+.postcard-message,
+.postcard-form {
+  flex: 1;
+}
+
+.postcard-message {
+  font-size: 19px;
+  line-height: 1.25;
+}
+
+.postcard-message p {
+  margin: 0 0 18px;
+}
+
+.postcard-form {
+  padding-top: 8px;
+}
+
+.postcard-form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 5px 4px;
+  border: 0;
+  border-bottom: 1px solid #9b9b9b;
+  outline: none;
+  font: inherit;
+  font-size: 18px;
+}
+
+.postcard-form input::placeholder {
+  color: #777;
+}
+
+.postcard-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.postcard-footer button {
+  padding: 6px 14px;
+  border: 0;
+  border-bottom: 1px solid #777;
+  background: #bdbdbd;
+  cursor: pointer;
+  font: inherit;
+  font-size: 18px;
+}
+
+.postcard-footer button:hover {
+  background: #a9a9a9;
+}
+
+@media (max-width: 640px) {
+  .postcard {
+    width: calc(100vw - 32px);
+    min-height: auto;
+  }
+
+  .postcard-body {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

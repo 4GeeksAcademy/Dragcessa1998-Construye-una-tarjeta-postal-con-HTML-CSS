@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi postal digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="postcard">
+      <header class="postcard-header">
+        <h1>Mi postal</h1>
+        <img
+          src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png"
+          alt="4Geeks Academy logo"
+        />
+      </header>
+
+      <section class="postcard-body">
+        <article class="postcard-message">
+          <p>
+            Estoy creando mi primera postal digital con HTML5 y CSS3 para el
+            ejercicio de 4Geeks Academy.
+          </p>
+          <p>
+            Me gusta ver cómo una estructura sencilla, estilos y formularios se
+            convierten en una página real.
+          </p>
+        </article>
+
+        <form class="postcard-form" id="postcard-form" action="#">
+          <input type="text" name="name" placeholder="Tu nombre" />
+          <input type="email" name="email" placeholder="Tu email" />
+          <input type="text" name="comment" placeholder="Tu mensaje" />
+        </form>
+      </section>
+
+      <footer class="postcard-footer">
+        <button type="submit" form="postcard-form">Enviar mi postal</button>
+      </footer>
+    </main>
+  </body>
+</html>
