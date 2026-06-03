@@ -1,3 +1,5 @@
+![Construye una Tarjeta Postal con HTML & CSS](./baner.png)
+
 # Mi postal digital
 
 Ejercicio de HTML y CSS para 4Geeks Academy. El objetivo es construir una

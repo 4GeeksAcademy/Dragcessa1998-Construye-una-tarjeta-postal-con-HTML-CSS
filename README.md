@@ -1,3 +1,5 @@
+![Build a Postcard with HTML & CSS](./baner.png)
+
 # Digital Postcard
 
 HTML and CSS exercise for 4Geeks Academy. The project builds a centered digital
